@@ -1,0 +1,38 @@
+body{
+    background-color: #cdc;
+
+}
+.dropDown{
+    display: block;
+    justify-content: center;
+    align-self: center;
+    width: 40%;
+
+}
+
+.dropDown:hover>table{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-self: center;
+    display: block;
+    border: solid black 2px;
+}
+
+table{
+    display: none;
+    border-spacing: 20px;
+}
+
+td{
+    border: solid black 1px;
+}
+
+td:hover{
+    background-color: #aaa;
+}
+
+#clicker {
+    right: 300px;
+    border: 3px solid black
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Clicker Page</h1>
+    <div class="dropDown">
+        <thead>Store</thead>
+        <table class="menu">
+            <tr>
+                <td>passive</td>
+                <td onclick=autoClicker(.5,10)>upgrade1</td>
+                <td onclick=autoClicker(2,20)>upgrade2</td>
+                <td onclick=autoClicker(5,100)>upgrade3</td>
+                <td onclick=autoClicker(10,250)>upgrade4</td>
+                <td onclick=autoClicker(25,500)>upgrade5</td>
+            </tr>
+            <tr>
+                <td>active</td>
+                <td onclick=activeClicker(.5,10)>upgrade1</td>
+                <td onclick=activeClicker(2,20)>upgrade2</td>
+                <td onclick=activeClicker(5,100)>upgrade3</td>
+                <td onclick=activeClicker(10,250)>upgrade4</td>
+                <td onclick=activeClicker(25,500)>upgrade5</td>
+            </tr>
+        </table>
+    </div>
+    <div class="clicker">
+        <button id="counter_button">Click Me!</button>
+        <span id= countspan>0</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
